@@ -1,0 +1,46 @@
+body {
+
+  height: 100%;
+
+  width: 100%;
+
+}
+
+#game1 {
+
+  align-items: left;
+
+  height: 100px;
+
+  length: 100px;
+
+}
+
+#game2 {
+
+  align-items: center;
+
+  height: 100px;
+
+  length: 100px;
+
+}
+
+#game3 {
+
+  align-items: right;
+
+  height: 100px;
+
+  length: 100px;
+ 
+}
+
+#game4 {
+  align-items: right;
+  
+  height: 100px;
+  
+  length: 100px;
+  
+} 
