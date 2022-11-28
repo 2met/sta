@@ -5,7 +5,7 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 input {
-    background: rgba(0, 0, 0, 0);
+    background: #5383bd;
     border: none;
     outline: none;
     color: #63de00;
