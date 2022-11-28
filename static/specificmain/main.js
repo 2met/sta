@@ -49,19 +49,8 @@ log("Preparing script injections!");
 console.groupCollapsed("Click to view Script Injection operations!");
 script("Preparing 1 script to be injected...");
 
-const gascript = document.createElement("script");
-gascript.setAttribute("async", "");
-gascript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-Y1NCPTB4J7");
-const inlinegascript = document.createElement("script");
-inlinegascript.innerHTML = `window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-Y1NCPTB4J7');`;
-document.head.append(gascript, inlinegascript);
-script("Injected script 1/1");
-
-const gascript2 = document.createElement("script");
-
+<script async src="//static.getclicky.com/101388850.js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101388850ns.gif" /></p></noscript>
 
 
 console.groupEnd();
