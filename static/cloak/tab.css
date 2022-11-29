@@ -5,10 +5,10 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 input {
-    background: #00ffff;
+    background: #3b3b3b;
     border: none;
     outline: none;
-    color: #00ffff;
+    color: #3b3b3b;
     font-family: "Montserrat", sans-serif;
     font-size: inherit;
 }
