@@ -3,6 +3,9 @@
     "bare-server-node": "github:tomphttp/bare-server-node",
     "node-static": "^0.7.11"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "name": "uv-app",
   "version": "1.0.0",
   "description": "Ultraviolet instance",
