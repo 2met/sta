@@ -1,2 +1,0 @@
-A javascript emulator for nes, snes, and more! The BEST emulator on the internet.
-Credit: https://github.com/ethanaobrien/emulatorjs
