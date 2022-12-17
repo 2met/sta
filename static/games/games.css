@@ -54,11 +54,17 @@ body {
   
 } 
 
-#game5 {
+#game6 {
   align-items: right;
   
   height: 100px;
   
   length: 100px;
   
+ #game7 {
+  align-items: right;
+  
+  height: 100px;
+  
+  length: 100px;
 } 
