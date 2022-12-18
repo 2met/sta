@@ -23,6 +23,8 @@ tab("Loading Tab Cloak...");
 const local_title = localStorage.getItem("title");
 const local_icon = localStorage.getItem("icon");
 
+console.log("icon info if neccessary: " + local_icon);
+
 // Set tab title (if needed)
 if (window.localStorage.hasOwnProperty("title")) {
   document.title = local_title;
