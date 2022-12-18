@@ -34,7 +34,13 @@ if (window.localStorage.hasOwnProperty("title")) {
 }
 // Set tab icon (if needed)
 if (window.localStorage.hasOwnProperty("icon")) {
-  document.querySelector("link[rel=icon]").href = local_icon;
+ var link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.getElementsByTagName('head')[0].appendChild(link);
+}
+link.href = local_icon;
   console.log("Icon set to: " + local_icon);
 } else {
   console.log("Icon not set :(");
