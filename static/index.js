@@ -1,14 +1,14 @@
 const form = document.querySelector('form');
 const input = document.querySelector('.form__input');
-const gobtn = document.querySelector('.submit');
+const searchBTN = document.querySelector('.submit');
 
 document.body.addEventListener("keydown", function (event) {
     if (event.key === ",") {
         window.location.replace("https://google.com");
     }
 });
-
-gobtn.addEventListener('click', async event => {
+//the whole thing
+searchBTN.addEventListener('click', async event => {
     event.preventDefault();
     window.navigator.serviceWorker.register('./sw.js', {
         scope: __uv$config.prefix
