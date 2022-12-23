@@ -2,10 +2,11 @@ const form = document.querySelector('form');
 const input = document.querySelector('.form__input');
 const gobtn = document.querySelector('.submit');
 
-
-
-
-
+document.body.addEventListener("keydown", function (event) {
+    if (event.key === ",") {
+        window.location.replace("https://google.com");
+    }
+});
 
 gobtn.addEventListener('click', async event => {
     event.preventDefault();
